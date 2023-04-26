@@ -1,0 +1,63 @@
+.mgr-lf-88 {
+    margin-left: 88px;
+}
+
+.mgr-20 {
+    margin: 20px;
+}
+
+.mgr-tp-lf-rg-20 {
+    margin: 30px 20px 0 20px;
+}
+
+.btn-position {
+    width: 20%;
+    align-self: flex-end;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+.selected-seat {
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+.row-spacing {
+    margin: 10px 5px 10px 95px;
+}
+
+.seat {
+    display: flex;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid green;
+    width: 20px;
+}
+
+.outer-div {
+    border: 1px solid black;
+    margin-left: 40px;
+    height: 115px;
+    width: 180px;
+    margin-top: 180px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.right-side-div{
+    border: 1px solid black;
+    margin-left: 90px;
+    height: 285px;
+    width: 230px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.ft-size{
+    font-size: 15px;
+}
+
+.div-margin{
+    margin: 20px 0px 25px 0px;
+}

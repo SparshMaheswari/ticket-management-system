@@ -1,0 +1,32 @@
+<div class="card shadow mb-5 mgr-tp-lf-rg-20">
+    <form [formGroup]="theForm" (ngSubmit)="onBookTickets()">
+        <div class="row">
+            <div class="col col-md-5 mgr-20 width-45">
+                <input type="text" id="firstName" name="firstName" formControlName="firstName" placeholder="First Name*"
+                    [ngClass]="theForm.controls['firstName'].touched && theForm.controls['firstName'].status === 'INVALID' ? 'border border-danger form-control' : 'form-control' ">
+            </div>
+            <div class="col col-md-5 mgr-rg-tp-bt-20 width-45">
+                <input type="text" id="lastName" name="lastName" formControlName="lastName" placeholder="Last Name*"
+                [ngClass]="theForm.controls['lastName'].touched && theForm.controls['lastName'].status === 'INVALID' ? 'border border-danger form-control' : 'form-control' ">
+            </div>
+        </div>
+        <div class="col-md-11 mgr-lf-rg-bt-20">
+            <input type="email" id="email" name="email" formControlName="email" class="form-control"
+                placeholder="Email ID*"
+                [ngClass]="theForm.controls['email'].touched && theForm.controls['email'].status === 'INVALID' ? 'border border-danger form-control' : 'form-control' ">
+        </div>
+        <div class="col-md-11 mgr-lf-rg-bt-20">
+            <input type="number" id="noOfSeats" name="noOfSeats" formControlName="noOfSeats" class="form-control"
+                placeholder="Number of seats*"
+                [ngClass]="theForm.controls['noOfSeats'].touched && theForm.controls['noOfSeats'].status === 'INVALID' ? 'border border-danger form-control' : 'form-control' ">
+        </div>
+        <div class="col-md-11 mgr-lf-rg-bt-20">
+            <input id="phoneNumber" name="phoneNumber" formControlName="phoneNumber" class="form-control"
+                placeholder="Phone Number*"
+                [ngClass]="theForm.controls['phoneNumber'].touched && theForm.controls['phoneNumber'].status === 'INVALID' ? 'border border-danger form-control' : 'form-control' ">
+        </div>
+        <div class="rg-align">
+            <button type="submit" [disabled]="this.theForm.invalid" class="btn btn-outline-dark btn-position">Book Tickets</button>
+        </div>
+    </form>
+</div>

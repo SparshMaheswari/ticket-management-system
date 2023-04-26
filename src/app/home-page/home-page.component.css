@@ -1,0 +1,33 @@
+.mgr-20{
+    margin: 20px;
+}
+
+.mgr-lf-rg-bt-20{
+    margin: 0 20px 20px 20px;
+}
+
+.mgr-tp-lf-rg-20{
+    margin: 110px 20px 0px 320px;
+    width: 50%;
+}
+
+.mgr-rg-tp-bt-20{
+    margin: 20px 20px 20px 0;
+}
+
+.btn-position{
+    margin-bottom: 20px;
+}
+
+.rg-align{
+    text-align: end;
+    margin-right: 30px;
+}
+
+.width-101{
+    width: 101%;
+}
+
+.width-45{
+    width: 45%;
+}
